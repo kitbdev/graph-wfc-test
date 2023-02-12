@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Linq;
 using System.Collections.Generic;
+using Kutil;
 
 public class GraphNodeHolder : MonoBehaviour {
     // hold mat
@@ -8,15 +9,14 @@ public class GraphNodeHolder : MonoBehaviour {
     public float conRange = 3;
     public List<GraphNodeHolder> connections = new List<GraphNodeHolder>();
 
-    // [Kutil.AddButton(nameof(FindConnections))]
-    // public int dummyCon;
-
-    [Kutil.AddButton(nameof(ConvertToGraph), buttonLayout = Kutil.AddButtonAttribute.ButtonLayout.AFTER)]
+    [AddButton(nameof(ClearConnections))]
+    [AddButton(nameof(FindConnections))]
+    [AddButton(nameof(ConvertToGraph), buttonLayout = AddButtonAttribute.ButtonLayout.AFTER)]
     public VolGraph graph;
 
     [Space]
-    [Kutil.ReadOnly]
-    public Node node;
+    [ReadOnly]
+    public VolNode node;
 
     [ContextMenu("clear connections")]
     public void ClearConnections() {
@@ -38,29 +38,30 @@ public class GraphNodeHolder : MonoBehaviour {
         if (graph == null) return;
         ClearProp();
         graph.rootNode = ToNode();
+        graph.UpdateNodes();
     }
     void ClearProp() {
         if (node == null || node.connectedNodes == null) return;
-        node.connectedNodes = null;
+        node = null;
         foreach (var connode in connections) {
             connode.ClearProp();
         }
     }
-    Node ToNode() {
-        if (node == null) {
-            node = new Node();
-            // return node;
+    VolNode ToNode() {
+        if (node != null) {
+            return node;
         }
+        node = new VolNode();
         node.pos = transform.position;
         node.radius = conRange;
         node.mat = matCon;
-        if (node.connectedNodes == null) {
-            node.connectedNodes = new();
-            node.connectedNodes = GetNeighbors();
+        var neis = GetNeighbors();
+        foreach (var nei in neis) {
+            node.ConnectTo(nei);
         }
         return node;
     }
-    List<Node> GetNeighbors() {
+    List<VolNode> GetNeighbors() {
         return connections.Select(g => g.ToNode()).ToList();
     }
 
