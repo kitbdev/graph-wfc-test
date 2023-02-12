@@ -12,6 +12,15 @@ public class VolGraph : MonoBehaviour {
 
     public List<VolNode> allNodes;
 
+
+    public TileGraph GetTileGraph(){
+        TileGraph tileGraph = new TileGraph();
+        if (rootNode.tileNodes.Count>0){
+            tileGraph.rootNode = rootNode.tileNodes[0];
+        }
+        return tileGraph;
+    }
+
     [ContextMenu("update")]
     public void UpdateNodes() {
         allNodes = GetAllNodes();
@@ -118,11 +127,11 @@ public class VolNode {
     }
     public void ConnectTo(VolNode node) {
         _connectedNodes.Add(node);
+        // todo instead, reference the tilegraph and tell it to fix stuff?
         TileNode tileNode = new TileNode(this, node);
         tileNode.AddConnections(tileNodes);
         tileNode.AddConnections(node.tileNodes);
         foreach (var ntn in node.tileNodes.Where(tn => tn.node1 == this || tn.node2 == this)) {
-            if (tileNode == null){}
             ntn.AddConnections(tileNode.InNewArray());
         }
         _tileNodes.Add(tileNode);

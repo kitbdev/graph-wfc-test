@@ -13,11 +13,13 @@ public class TerrainGen : MonoBehaviour {
     public TileModel[] AllTiles => allTiles;
 
     [AddButton(nameof(FindTiles), "Find Tiles", null, AddButtonAttribute.ButtonLayout.REPLACE)]
+    [SerializeField]
     int dummytiles;
     [AddButton(nameof(StartGen), "Start Gen", null, AddButtonAttribute.ButtonLayout.REPLACE)]
+    [SerializeField]
     int dummygen;
 
-    [ReadOnly]
+    [ReadOnly][SerializeField]
     bool isGenerating;
 
     private void Start() {
@@ -36,7 +38,8 @@ public class TerrainGen : MonoBehaviour {
         ClearGen();
         isGenerating = true;
         // create the tilegraph from the volume graph
-
+        tileGraph = graph.GetTileGraph();
+        // find a tile to place for each tilenode
 
         isGenerating = false;
     }

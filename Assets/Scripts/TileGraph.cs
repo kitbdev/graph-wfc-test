@@ -10,6 +10,7 @@ using UnityEditor;
 [System.Serializable]
 public class TileGraph {
     public TileNode rootNode;
+    // public List<VolNode> allNodes;
 }
 
 /// <summary>
@@ -24,12 +25,12 @@ public class TileNode {
     public VolNode node2;
     public Vector3 pos;
     [SerializeReference]
-    public List<TileNode> connectedNodes;// = new List<Node>(8);
+    public List<TileNode> connectedNodes;
 
     public MaterialDirections connectivityMap;
 
-    [SerializeReference]
-    public List<TileModel> allPossibleTileModels;
+    // [SerializeReference]
+    // public List<TileModel> allPossibleTileModels;
     public TileModel choosenTileModel;
     public GameObject activeGameObject;
 
@@ -38,6 +39,7 @@ public class TileNode {
     public TileNode(VolNode node1, VolNode node2) {
         this.node1 = node1;
         this.node2 = node2;
+        this.connectedNodes = new List<TileNode>(10);
         UpdatePos();
         ResetTile();
     }
@@ -51,10 +53,12 @@ public class TileNode {
     public void ResetTile() {
         ClearGO();
         choosenTileModel = null;
-        if (terrain != null) allPossibleTileModels = terrain.AllTiles.ToList();
+        // if (terrain != null) allPossibleTileModels = terrain.AllTiles.ToList();
     }
     public void AddConnections(IEnumerable<TileNode> nodes) {
-        connectedNodes.AddRange(nodes.Distinct().Except(connectedNodes.Append(this)));
+        IEnumerable<TileNode> collection = nodes.Distinct().Except(connectedNodes.Append(this));
+        // Debug.Log("adding " + collection.Count() + " " + collection.ToStringFull());
+        connectedNodes.AddRange(collection);
     }
     public void ClearConnections() {
         connectedNodes.Clear();

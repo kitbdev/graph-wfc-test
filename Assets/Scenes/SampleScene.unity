@@ -410,64 +410,292 @@ MonoBehaviour:
     pos: {x: 0, y: 7.54, z: 10.96}
     radius: 3
     mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-    connectedNodes:
-    - rid: 6986574209458110516
-    - rid: 6986574209458110517
+    _connectedNodes:
+    - rid: 6986574232608047292
+    - rid: 6986574232608047293
+    _tileNodes:
+    - rid: 6986574232608047294
+    - rid: 6986574232608047295
+  allNodes:
+  - pos: {x: 0, y: 7.54, z: 10.96}
+    radius: 3
+    mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+    _connectedNodes:
+    - rid: 6986574232608047292
+    - rid: 6986574232608047293
+    _tileNodes:
+    - rid: 6986574232608047294
+    - rid: 6986574232608047295
+  - pos: {x: 0, y: 7.54, z: 14.05}
+    radius: 3
+    mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+    _connectedNodes:
+    - rid: 6986574232608047296
+    - rid: 6986574232608047297
+    - rid: 6986574232608047298
+    _tileNodes:
+    - rid: 6986574232608047299
+    - rid: 6986574232608047300
+    - rid: 6986574232608047301
+  - pos: {x: 0.69, y: 7.54, z: 8.25}
+    radius: 3
+    mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+    _connectedNodes:
+    - rid: 6986574232608047298
+    _tileNodes:
+    - rid: 6986574232608047302
+  - pos: {x: 3.03, y: 7.54, z: 13.65}
+    radius: 3
+    mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+    _connectedNodes:
+    - rid: 6986574232608047292
+    - rid: 6986574232608047303
+    _tileNodes:
+    - rid: 6986574232608047304
+    - rid: 6986574232608047305
+  - pos: {x: -2.03, y: 7.54, z: 15.81}
+    radius: 3
+    mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+    _connectedNodes:
+    - rid: 6986574232608047292
+    _tileNodes:
+    - rid: 6986574232608047306
+  - pos: {x: 4.54, y: 7.54, z: 15.47}
+    radius: 3
+    mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+    _connectedNodes:
+    - rid: 6986574232608047296
+    _tileNodes:
+    - rid: 6986574232608047307
   references:
     version: 2
     RefIds:
-    - rid: 6986574209458110516
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+    - rid: 6986574232608047292
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 14.05}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110518
-        - rid: 6986574209458110519
-        - rid: 6986574209458110520
-    - rid: 6986574209458110517
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047296
+        - rid: 6986574232608047297
+        - rid: 6986574232608047298
+        _tileNodes:
+        - rid: 6986574232608047299
+        - rid: 6986574232608047300
+        - rid: 6986574232608047301
+    - rid: 6986574232608047293
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0.69, y: 7.54, z: 8.25}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047298
+        _tileNodes:
+        - rid: 6986574232608047302
+    - rid: 6986574232608047294
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047298
+        node2:
+          rid: 6986574232608047292
+        pos: {x: 0, y: 7.54, z: 12.505}
         connectedNodes:
-        - rid: 6986574209458110520
-    - rid: 6986574209458110518
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047299
+        - rid: 6986574232608047300
+        - rid: 6986574232608047301
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047295
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047298
+        node2:
+          rid: 6986574232608047293
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047294
+        - rid: 6986574232608047302
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047296
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 3.03, y: 7.54, z: 13.65}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110516
-        - rid: 6986574209458110521
-    - rid: 6986574209458110519
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047292
+        - rid: 6986574232608047303
+        _tileNodes:
+        - rid: 6986574232608047304
+        - rid: 6986574232608047305
+    - rid: 6986574232608047297
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: -2.03, y: 7.54, z: 15.81}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110516
-    - rid: 6986574209458110520
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047292
+        _tileNodes:
+        - rid: 6986574232608047306
+    - rid: 6986574232608047298
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 10.96}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047292
+        - rid: 6986574232608047293
+        _tileNodes:
+        - rid: 6986574232608047294
+        - rid: 6986574232608047295
+    - rid: 6986574232608047299
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047292
+        node2:
+          rid: 6986574232608047296
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110516
-        - rid: 6986574209458110517
-    - rid: 6986574209458110521
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047304
+        - rid: 6986574232608047305
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047300
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047292
+        node2:
+          rid: 6986574232608047297
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047299
+        - rid: 6986574232608047306
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047301
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047292
+        node2:
+          rid: 6986574232608047298
+        pos: {x: 0, y: 7.54, z: 12.505}
+        connectedNodes:
+        - rid: 6986574232608047299
+        - rid: 6986574232608047300
+        - rid: 6986574232608047294
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047302
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047293
+        node2:
+          rid: 6986574232608047298
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047295
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047303
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 4.54, y: 7.54, z: 15.47}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047296
+        _tileNodes:
+        - rid: 6986574232608047307
+    - rid: 6986574232608047304
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047296
+        node2:
+          rid: 6986574232608047292
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110518
+        - rid: 6986574232608047299
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047305
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047296
+        node2:
+          rid: 6986574232608047303
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047304
+        - rid: 6986574232608047307
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047306
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047297
+        node2:
+          rid: 6986574232608047292
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047300
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047307
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047303
+        node2:
+          rid: 6986574232608047296
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047305
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
 --- !u!4 &526965040
 Transform:
   m_ObjectHideFlags: 0
@@ -573,63 +801,239 @@ MonoBehaviour:
     pos: {x: 4.54, y: 7.54, z: 15.47}
     radius: 3
     mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-    connectedNodes:
-    - rid: 6986574209458110528
+    _connectedNodes:
+    - rid: 6986574232608047244
+    _tileNodes:
+    - rid: 6986574232608047245
   references:
     version: 2
     RefIds:
-    - rid: 6986574209458110528
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+    - rid: 6986574232608047244
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 3.03, y: 7.54, z: 13.65}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047246
+        - rid: 6986574232608047247
+        _tileNodes:
+        - rid: 6986574232608047248
+        - rid: 6986574232608047249
+    - rid: 6986574232608047245
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047247
+        node2:
+          rid: 6986574232608047244
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
         connectedNodes:
-        - rid: 6986574209458110529
-        - rid: 6986574209458110530
-    - rid: 6986574209458110529
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047249
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047246
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 14.05}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110528
-        - rid: 6986574209458110531
-        - rid: 6986574209458110532
-    - rid: 6986574209458110530
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047244
+        - rid: 6986574232608047250
+        - rid: 6986574232608047251
+        _tileNodes:
+        - rid: 6986574232608047252
+        - rid: 6986574232608047253
+        - rid: 6986574232608047254
+    - rid: 6986574232608047247
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 4.54, y: 7.54, z: 15.47}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047244
+        _tileNodes:
+        - rid: 6986574232608047245
+    - rid: 6986574232608047248
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047244
+        node2:
+          rid: 6986574232608047246
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110528
-    - rid: 6986574209458110531
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047252
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047249
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047244
+        node2:
+          rid: 6986574232608047247
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047248
+        - rid: 6986574232608047245
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047250
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: -2.03, y: 7.54, z: 15.81}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110529
-    - rid: 6986574209458110532
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047246
+        _tileNodes:
+        - rid: 6986574232608047255
+    - rid: 6986574232608047251
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 10.96}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047246
+        - rid: 6986574232608047256
+        _tileNodes:
+        - rid: 6986574232608047257
+        - rid: 6986574232608047258
+    - rid: 6986574232608047252
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047246
+        node2:
+          rid: 6986574232608047244
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110529
-        - rid: 6986574209458110533
-    - rid: 6986574209458110533
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047248
+        - rid: 6986574232608047249
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047253
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047246
+        node2:
+          rid: 6986574232608047250
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047252
+        - rid: 6986574232608047255
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047254
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047246
+        node2:
+          rid: 6986574232608047251
+        pos: {x: 0, y: 7.54, z: 12.505}
+        connectedNodes:
+        - rid: 6986574232608047252
+        - rid: 6986574232608047253
+        - rid: 6986574232608047257
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047255
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047250
+        node2:
+          rid: 6986574232608047246
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047253
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047256
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0.69, y: 7.54, z: 8.25}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047251
+        _tileNodes:
+        - rid: 6986574232608047259
+    - rid: 6986574232608047257
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047251
+        node2:
+          rid: 6986574232608047246
+        pos: {x: 0, y: 7.54, z: 12.505}
         connectedNodes:
-        - rid: 6986574209458110532
+        - rid: 6986574232608047252
+        - rid: 6986574232608047253
+        - rid: 6986574232608047254
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047258
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047251
+        node2:
+          rid: 6986574232608047256
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047257
+        - rid: 6986574232608047259
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047259
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047256
+        node2:
+          rid: 6986574232608047251
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047258
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
 --- !u!135 &942217688
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -759,65 +1163,243 @@ MonoBehaviour:
     pos: {x: 0, y: 7.54, z: 14.05}
     radius: 3
     mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-    connectedNodes:
-    - rid: 6986574209458110546
-    - rid: 6986574209458110547
-    - rid: 6986574209458110548
+    _connectedNodes:
+    - rid: 6986574232608047276
+    - rid: 6986574232608047277
+    - rid: 6986574232608047278
+    _tileNodes:
+    - rid: 6986574232608047279
+    - rid: 6986574232608047280
+    - rid: 6986574232608047281
   references:
     version: 2
     RefIds:
-    - rid: 6986574209458110546
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+    - rid: 6986574232608047276
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 3.03, y: 7.54, z: 13.65}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110549
-        - rid: 6986574209458110550
-    - rid: 6986574209458110547
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047282
+        - rid: 6986574232608047283
+        _tileNodes:
+        - rid: 6986574232608047284
+        - rid: 6986574232608047285
+    - rid: 6986574232608047277
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: -2.03, y: 7.54, z: 15.81}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110549
-    - rid: 6986574209458110548
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047282
+        _tileNodes:
+        - rid: 6986574232608047286
+    - rid: 6986574232608047278
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 10.96}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047282
+        - rid: 6986574232608047287
+        _tileNodes:
+        - rid: 6986574232608047288
+        - rid: 6986574232608047289
+    - rid: 6986574232608047279
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047282
+        node2:
+          rid: 6986574232608047276
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110549
-        - rid: 6986574209458110551
-    - rid: 6986574209458110549
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047284
+        - rid: 6986574232608047285
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047280
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047282
+        node2:
+          rid: 6986574232608047277
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047279
+        - rid: 6986574232608047286
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047281
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047282
+        node2:
+          rid: 6986574232608047278
+        pos: {x: 0, y: 7.54, z: 12.505}
+        connectedNodes:
+        - rid: 6986574232608047279
+        - rid: 6986574232608047280
+        - rid: 6986574232608047288
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047282
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 14.05}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110546
-        - rid: 6986574209458110547
-        - rid: 6986574209458110548
-    - rid: 6986574209458110550
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047276
+        - rid: 6986574232608047277
+        - rid: 6986574232608047278
+        _tileNodes:
+        - rid: 6986574232608047279
+        - rid: 6986574232608047280
+        - rid: 6986574232608047281
+    - rid: 6986574232608047283
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 4.54, y: 7.54, z: 15.47}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047276
+        _tileNodes:
+        - rid: 6986574232608047290
+    - rid: 6986574232608047284
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047276
+        node2:
+          rid: 6986574232608047282
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110546
-    - rid: 6986574209458110551
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047279
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047285
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047276
+        node2:
+          rid: 6986574232608047283
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047284
+        - rid: 6986574232608047290
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047286
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047277
+        node2:
+          rid: 6986574232608047282
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047280
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047287
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0.69, y: 7.54, z: 8.25}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047278
+        _tileNodes:
+        - rid: 6986574232608047291
+    - rid: 6986574232608047288
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047278
+        node2:
+          rid: 6986574232608047282
+        pos: {x: 0, y: 7.54, z: 12.505}
         connectedNodes:
-        - rid: 6986574209458110548
+        - rid: 6986574232608047279
+        - rid: 6986574232608047280
+        - rid: 6986574232608047281
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047289
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047278
+        node2:
+          rid: 6986574232608047287
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047288
+        - rid: 6986574232608047291
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047290
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047283
+        node2:
+          rid: 6986574232608047276
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047285
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047291
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047287
+        node2:
+          rid: 6986574232608047278
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047289
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
 --- !u!135 &1043067532
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -904,6 +1486,72 @@ Transform:
   m_Father: {fileID: 1455806586}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1073150347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1073150349}
+  - component: {fileID: 1073150348}
+  m_Layer: 0
+  m_Name: TerrainGen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1073150348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073150347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df4c450168ff9024487d3bba8e1cd05f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  graph: {fileID: 526965039}
+  tileGraph:
+    rootNode:
+      node1:
+        rid: -2
+      node2:
+        rid: -2
+      pos: {x: 0, y: 0, z: 0}
+      connectedNodes: []
+      connectivityMap:
+        dirs: []
+      choosenTileModel: {fileID: 0}
+      activeGameObject: {fileID: 0}
+      terrain: {fileID: 0}
+  dummytiles: 0
+  dummygen: 0
+  isGenerating: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+--- !u!4 &1073150349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073150347}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1079445690
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,66 +1592,243 @@ MonoBehaviour:
   graph: {fileID: 526965039}
   node:
     pos: {x: 3.03, y: 7.54, z: 13.65}
-    radius: 3.05
+    radius: 3
     mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-    connectedNodes:
-    - rid: 6986574209458110522
-    - rid: 6986574209458110523
+    _connectedNodes:
+    - rid: 6986574232608047324
+    - rid: 6986574232608047325
+    _tileNodes:
+    - rid: 6986574232608047326
+    - rid: 6986574232608047327
   references:
     version: 2
     RefIds:
-    - rid: 6986574209458110522
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+    - rid: 6986574232608047324
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 14.05}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110524
-        - rid: 6986574209458110525
-        - rid: 6986574209458110526
-    - rid: 6986574209458110523
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047328
+        - rid: 6986574232608047329
+        - rid: 6986574232608047330
+        _tileNodes:
+        - rid: 6986574232608047331
+        - rid: 6986574232608047332
+        - rid: 6986574232608047333
+    - rid: 6986574232608047325
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 4.54, y: 7.54, z: 15.47}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110524
-    - rid: 6986574209458110524
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047328
+        _tileNodes:
+        - rid: 6986574232608047334
+    - rid: 6986574232608047326
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
       data:
-        pos: {x: 3.08, y: 7.54, z: 13.65}
+        node1:
+          rid: 6986574232608047328
+        node2:
+          rid: 6986574232608047324
+        pos: {x: 1.515, y: 7.54, z: 13.85}
+        connectedNodes:
+        - rid: 6986574232608047331
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047327
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047328
+        node2:
+          rid: 6986574232608047325
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047326
+        - rid: 6986574232608047334
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047328
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
+      data:
+        pos: {x: 3.03, y: 7.54, z: 13.65}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110522
-        - rid: 6986574209458110523
-    - rid: 6986574209458110525
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047324
+        - rid: 6986574232608047325
+        _tileNodes:
+        - rid: 6986574232608047326
+        - rid: 6986574232608047327
+    - rid: 6986574232608047329
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: -2.03, y: 7.54, z: 15.81}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110522
-    - rid: 6986574209458110526
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047324
+        _tileNodes:
+        - rid: 6986574232608047335
+    - rid: 6986574232608047330
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 10.96}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047324
+        - rid: 6986574232608047336
+        _tileNodes:
+        - rid: 6986574232608047337
+        - rid: 6986574232608047338
+    - rid: 6986574232608047331
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047324
+        node2:
+          rid: 6986574232608047328
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110522
-        - rid: 6986574209458110527
-    - rid: 6986574209458110527
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047326
+        - rid: 6986574232608047327
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047332
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047324
+        node2:
+          rid: 6986574232608047329
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047331
+        - rid: 6986574232608047335
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047333
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047324
+        node2:
+          rid: 6986574232608047330
+        pos: {x: 0, y: 7.54, z: 12.505}
+        connectedNodes:
+        - rid: 6986574232608047331
+        - rid: 6986574232608047332
+        - rid: 6986574232608047337
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047334
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047325
+        node2:
+          rid: 6986574232608047328
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047327
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047335
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047329
+        node2:
+          rid: 6986574232608047324
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047332
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047336
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0.69, y: 7.54, z: 8.25}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047330
+        _tileNodes:
+        - rid: 6986574232608047339
+    - rid: 6986574232608047337
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047330
+        node2:
+          rid: 6986574232608047324
+        pos: {x: 0, y: 7.54, z: 12.505}
         connectedNodes:
-        - rid: 6986574209458110526
+        - rid: 6986574232608047331
+        - rid: 6986574232608047332
+        - rid: 6986574232608047333
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047338
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047330
+        node2:
+          rid: 6986574232608047336
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047337
+        - rid: 6986574232608047339
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047339
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047336
+        node2:
+          rid: 6986574232608047330
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047338
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
 --- !u!135 &1079445692
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1275,64 +2100,241 @@ MonoBehaviour:
     pos: {x: 0, y: 7.54, z: 10.96}
     radius: 3
     mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-    connectedNodes:
-    - rid: 6986574209458110510
-    - rid: 6986574209458110511
+    _connectedNodes:
+    - rid: 6986574232608047228
+    - rid: 6986574232608047229
+    _tileNodes:
+    - rid: 6986574232608047230
+    - rid: 6986574232608047231
   references:
     version: 2
     RefIds:
-    - rid: 6986574209458110510
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+    - rid: 6986574232608047228
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 14.05}
-        radius: 2.89
+        radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110512
-        - rid: 6986574209458110513
-        - rid: 6986574209458110514
-    - rid: 6986574209458110511
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047232
+        - rid: 6986574232608047233
+        - rid: 6986574232608047234
+        _tileNodes:
+        - rid: 6986574232608047235
+        - rid: 6986574232608047236
+        - rid: 6986574232608047237
+    - rid: 6986574232608047229
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0.69, y: 7.54, z: 8.25}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047234
+        _tileNodes:
+        - rid: 6986574232608047238
+    - rid: 6986574232608047230
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047234
+        node2:
+          rid: 6986574232608047228
+        pos: {x: 0, y: 7.54, z: 12.505}
         connectedNodes:
-        - rid: 6986574209458110514
-    - rid: 6986574209458110512
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047235
+        - rid: 6986574232608047236
+        - rid: 6986574232608047237
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047231
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047234
+        node2:
+          rid: 6986574232608047229
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047230
+        - rid: 6986574232608047238
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047232
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 3.03, y: 7.54, z: 13.65}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110510
-        - rid: 6986574209458110515
-    - rid: 6986574209458110513
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047228
+        - rid: 6986574232608047239
+        _tileNodes:
+        - rid: 6986574232608047240
+        - rid: 6986574232608047241
+    - rid: 6986574232608047233
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: -2.03, y: 7.54, z: 15.81}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110510
-    - rid: 6986574209458110514
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047228
+        _tileNodes:
+        - rid: 6986574232608047242
+    - rid: 6986574232608047234
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 10.96}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047228
+        - rid: 6986574232608047229
+        _tileNodes:
+        - rid: 6986574232608047230
+        - rid: 6986574232608047231
+    - rid: 6986574232608047235
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047228
+        node2:
+          rid: 6986574232608047232
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110510
-        - rid: 6986574209458110511
-    - rid: 6986574209458110515
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047240
+        - rid: 6986574232608047241
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047236
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047228
+        node2:
+          rid: 6986574232608047233
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047235
+        - rid: 6986574232608047242
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047237
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047228
+        node2:
+          rid: 6986574232608047234
+        pos: {x: 0, y: 7.54, z: 12.505}
+        connectedNodes:
+        - rid: 6986574232608047235
+        - rid: 6986574232608047236
+        - rid: 6986574232608047230
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047238
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047229
+        node2:
+          rid: 6986574232608047234
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047231
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047239
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 4.54, y: 7.54, z: 15.47}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047232
+        _tileNodes:
+        - rid: 6986574232608047243
+    - rid: 6986574232608047240
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047232
+        node2:
+          rid: 6986574232608047228
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110512
+        - rid: 6986574232608047235
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047241
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047232
+        node2:
+          rid: 6986574232608047239
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047240
+        - rid: 6986574232608047243
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047242
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047233
+        node2:
+          rid: 6986574232608047228
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047236
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047243
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047239
+        node2:
+          rid: 6986574232608047232
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047241
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
 --- !u!135 &1879018160
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1460,63 +2462,239 @@ MonoBehaviour:
     pos: {x: -2.03, y: 7.54, z: 15.81}
     radius: 3
     mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-    connectedNodes:
-    - rid: 6986574209458110540
+    _connectedNodes:
+    - rid: 6986574232608047260
+    _tileNodes:
+    - rid: 6986574232608047261
   references:
     version: 2
     RefIds:
-    - rid: 6986574209458110540
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+    - rid: 6986574232608047260
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 14.05}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047262
+        - rid: 6986574232608047263
+        - rid: 6986574232608047264
+        _tileNodes:
+        - rid: 6986574232608047265
+        - rid: 6986574232608047266
+        - rid: 6986574232608047267
+    - rid: 6986574232608047261
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047263
+        node2:
+          rid: 6986574232608047260
+        pos: {x: -1.015, y: 7.54, z: 14.93}
         connectedNodes:
-        - rid: 6986574209458110541
-        - rid: 6986574209458110542
-        - rid: 6986574209458110543
-    - rid: 6986574209458110541
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047266
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047262
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 3.03, y: 7.54, z: 13.65}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110540
-        - rid: 6986574209458110544
-    - rid: 6986574209458110542
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047260
+        - rid: 6986574232608047268
+        _tileNodes:
+        - rid: 6986574232608047269
+        - rid: 6986574232608047270
+    - rid: 6986574232608047263
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: -2.03, y: 7.54, z: 15.81}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110540
-    - rid: 6986574209458110543
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047260
+        _tileNodes:
+        - rid: 6986574232608047261
+    - rid: 6986574232608047264
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 10.96}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047260
+        - rid: 6986574232608047271
+        _tileNodes:
+        - rid: 6986574232608047272
+        - rid: 6986574232608047273
+    - rid: 6986574232608047265
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047260
+        node2:
+          rid: 6986574232608047262
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110540
-        - rid: 6986574209458110545
-    - rid: 6986574209458110544
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047269
+        - rid: 6986574232608047270
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047266
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047260
+        node2:
+          rid: 6986574232608047263
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047265
+        - rid: 6986574232608047261
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047267
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047260
+        node2:
+          rid: 6986574232608047264
+        pos: {x: 0, y: 7.54, z: 12.505}
+        connectedNodes:
+        - rid: 6986574232608047265
+        - rid: 6986574232608047266
+        - rid: 6986574232608047272
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047268
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 4.54, y: 7.54, z: 15.47}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047262
+        _tileNodes:
+        - rid: 6986574232608047274
+    - rid: 6986574232608047269
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047262
+        node2:
+          rid: 6986574232608047260
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110541
-    - rid: 6986574209458110545
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047265
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047270
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047262
+        node2:
+          rid: 6986574232608047268
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047269
+        - rid: 6986574232608047274
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047271
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0.69, y: 7.54, z: 8.25}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047264
+        _tileNodes:
+        - rid: 6986574232608047275
+    - rid: 6986574232608047272
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047264
+        node2:
+          rid: 6986574232608047260
+        pos: {x: 0, y: 7.54, z: 12.505}
         connectedNodes:
-        - rid: 6986574209458110543
+        - rid: 6986574232608047265
+        - rid: 6986574232608047266
+        - rid: 6986574232608047267
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047273
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047264
+        node2:
+          rid: 6986574232608047271
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047272
+        - rid: 6986574232608047275
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047274
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047268
+        node2:
+          rid: 6986574232608047262
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047270
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047275
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047271
+        node2:
+          rid: 6986574232608047264
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047273
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
 --- !u!135 &2081796621
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1722,63 +2900,239 @@ MonoBehaviour:
     pos: {x: 0.69, y: 7.54, z: 8.25}
     radius: 3
     mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-    connectedNodes:
-    - rid: 6986574209458110534
+    _connectedNodes:
+    - rid: 6986574232608047308
+    _tileNodes:
+    - rid: 6986574232608047309
   references:
     version: 2
     RefIds:
-    - rid: 6986574209458110534
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+    - rid: 6986574232608047308
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 10.96}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047310
+        - rid: 6986574232608047311
+        _tileNodes:
+        - rid: 6986574232608047312
+        - rid: 6986574232608047313
+    - rid: 6986574232608047309
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047311
+        node2:
+          rid: 6986574232608047308
+        pos: {x: 0.345, y: 7.54, z: 9.605}
         connectedNodes:
-        - rid: 6986574209458110535
-        - rid: 6986574209458110536
-    - rid: 6986574209458110535
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047313
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047310
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0, y: 7.54, z: 14.05}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110537
-        - rid: 6986574209458110538
-        - rid: 6986574209458110534
-    - rid: 6986574209458110536
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047314
+        - rid: 6986574232608047315
+        - rid: 6986574232608047308
+        _tileNodes:
+        - rid: 6986574232608047316
+        - rid: 6986574232608047317
+        - rid: 6986574232608047318
+    - rid: 6986574232608047311
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 0.69, y: 7.54, z: 8.25}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047308
+        _tileNodes:
+        - rid: 6986574232608047309
+    - rid: 6986574232608047312
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047308
+        node2:
+          rid: 6986574232608047310
+        pos: {x: 0, y: 7.54, z: 12.505}
         connectedNodes:
-        - rid: 6986574209458110534
-    - rid: 6986574209458110537
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047316
+        - rid: 6986574232608047317
+        - rid: 6986574232608047318
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047313
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047308
+        node2:
+          rid: 6986574232608047311
+        pos: {x: 0.345, y: 7.54, z: 9.605}
+        connectedNodes:
+        - rid: 6986574232608047312
+        - rid: 6986574232608047309
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047314
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 3.03, y: 7.54, z: 13.65}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
-        connectedNodes:
-        - rid: 6986574209458110535
-        - rid: 6986574209458110539
-    - rid: 6986574209458110538
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        _connectedNodes:
+        - rid: 6986574232608047310
+        - rid: 6986574232608047319
+        _tileNodes:
+        - rid: 6986574232608047320
+        - rid: 6986574232608047321
+    - rid: 6986574232608047315
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: -2.03, y: 7.54, z: 15.81}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047310
+        _tileNodes:
+        - rid: 6986574232608047322
+    - rid: 6986574232608047316
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047310
+        node2:
+          rid: 6986574232608047314
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110535
-    - rid: 6986574209458110539
-      type: {class: Node, ns: , asm: Assembly-CSharp}
+        - rid: 6986574232608047320
+        - rid: 6986574232608047321
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047317
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047310
+        node2:
+          rid: 6986574232608047315
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047316
+        - rid: 6986574232608047322
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047318
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047310
+        node2:
+          rid: 6986574232608047308
+        pos: {x: 0, y: 7.54, z: 12.505}
+        connectedNodes:
+        - rid: 6986574232608047316
+        - rid: 6986574232608047317
+        - rid: 6986574232608047312
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047319
+      type: {class: VolNode, ns: , asm: Assembly-CSharp}
       data:
         pos: {x: 4.54, y: 7.54, z: 15.47}
         radius: 3
         mat: {fileID: 11400000, guid: d026d7a09f7d99c47a8a8b2bb885d24c, type: 2}
+        _connectedNodes:
+        - rid: 6986574232608047314
+        _tileNodes:
+        - rid: 6986574232608047323
+    - rid: 6986574232608047320
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047314
+        node2:
+          rid: 6986574232608047310
+        pos: {x: 1.515, y: 7.54, z: 13.85}
         connectedNodes:
-        - rid: 6986574209458110537
+        - rid: 6986574232608047316
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047321
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047314
+        node2:
+          rid: 6986574232608047319
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047320
+        - rid: 6986574232608047323
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047322
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047315
+        node2:
+          rid: 6986574232608047310
+        pos: {x: -1.015, y: 7.54, z: 14.93}
+        connectedNodes:
+        - rid: 6986574232608047317
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
+    - rid: 6986574232608047323
+      type: {class: TileNode, ns: , asm: Assembly-CSharp}
+      data:
+        node1:
+          rid: 6986574232608047319
+        node2:
+          rid: 6986574232608047314
+        pos: {x: 3.7849998, y: 7.54, z: 14.559999}
+        connectedNodes:
+        - rid: 6986574232608047321
+        connectivityMap:
+          dirs: []
+        choosenTileModel: {fileID: 0}
+        activeGameObject: {fileID: 0}
+        terrain: {fileID: 0}
 --- !u!33 &2139103311
 MeshFilter:
   m_ObjectHideFlags: 0
